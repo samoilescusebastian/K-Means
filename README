@@ -1,0 +1,30 @@
+--------------------------------------
+--------------------------------------
+        Sebastian Samoilescu - Mihail
+            GRUPA 315CA
+            TEMA 01 MN
+--------------------------------------
+--------------------------------------
+
+---> Pentru functia "clustering_pc" :
+     
+     Centroizii initiali i-am considerat ca fiind primele NC puncte date in fisier.
+     
+     Pentru a recalcula coordonatele fiecarui centroid m-am folosit de un alt
+     vector coloana in care salvez grupul din care face parte fiecare punct.
+     
+--->  Pentru functia "view_clusters" : 
+
+    M-am refolosit de ideea de vector coloana in care salvez grupul din care face
+    parte fiecare punct.
+    
+    Pentru fiecare centroid, caut toate punctele ce apartin grupului determinat
+    de centroid si le reprezint folosint functia "scatter3"
+
+    Greutati: -- Pe grafic mi se reprezentau doar punctele ultimului centroid.
+              -- am rezolvat folosind functia hold on, respectiv hold off;
+    
+---> Pentru functia "compute_cost_pc" :
+
+    Calcul de distanta minima dintre fiecare punct si Centroizii
+    Suma distantelor minime este egala cu cu costul cerut;
